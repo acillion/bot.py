@@ -1,0 +1,2 @@
+# x-pidgin-translator
+Translation 
