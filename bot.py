@@ -230,6 +230,7 @@ def run_pipeline():
     entries = getattr(feed, 'entries', []) or []
     if not entries:
         logger.info("No entries found in feed.")
+        save_processed(processed_ids)
         return
 
     # Check the 3 newest entries in feed (oldest-first iteration)
