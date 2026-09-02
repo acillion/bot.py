@@ -21,7 +21,7 @@ X_ACCESS_TOKEN = os.environ.get("X_ACCESS_TOKEN")
 X_ACCESS_SECRET = os.environ.get("X_ACCESS_SECRET")
 
 # Source feed & tracking log
-RSS_FEED_URL = "https://xcancel.com/realmadriden"
+RSS_FEED_URL = "https://twstalker.com/realmadriden"
 PROCESSED_FILE = "processed_tweets.json"
 
 # ---> INSERT YOUR BRAND SIGNATURE HERE <---
